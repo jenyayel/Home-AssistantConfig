@@ -1,0 +1,11 @@
+- action:
+  - data:
+      event: ha_message
+      value1: Home Assistent started
+    service: ifttt.trigger
+  alias: HA Started Notification
+  condition: []
+  id: '1515015030432'
+  trigger:
+  - event: start
+    platform: homeassistant
