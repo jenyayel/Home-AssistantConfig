@@ -1,0 +1,1 @@
+## HomeAssistant configurations backup
